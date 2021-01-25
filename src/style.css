@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(147, 192, 141);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(147, 192, 141);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    .mobile{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .desktop {
+      display: none;
+    }
+  }
+  
